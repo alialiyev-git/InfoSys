@@ -1,67 +1,50 @@
-    # My Portfolio Website
+ # My Portfolio Website (Jekyll)
 
-A clean and responsive personal portfolio website built with HTML, CSS, and JavaScript.
+This repository contains a small Jekyll-based portfolio website. The original HTML pages were converted to Jekyll markdown pages and use a shared layout and includes.
 
 ## Project Structure
 
 ```
 my_portfolio/
-├── index.html          # Home page
-├── about.html          # About page
-├── projects.html       # Projects page
+├── _config.yml         # Jekyll config
+├── _layouts/
+│   └── default.html    # Main site layout
+├── _includes/
+│   ├── head.html
+│   ├── nav.html
+│   └── footer.html
+├── index.md            # Home page (markdown)
+├── about.md            # About page (markdown)
+├── projects.md         # Projects page (markdown)
 ├── css/
-│   └── style.css       # Main stylesheet
+│   └── style.css
 ├── js/
-│   └── script.js       # JavaScript functionality
+│   └── script.js
 ├── assets/
-│   └── images/         # Image assets folder
-└── README.md           # Project documentation
+│   └── images/
+└── README.md
 ```
 
-## Features
+## Local development (Jekyll)
 
-- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
-- **Clean Navigation**: Easy navigation between Home, About, and Projects pages
-- **Hero Section**: Eye-catching welcome section on the home page
-- **Project Showcase**: Grid layout for displaying your projects
-- **Skills Section**: Highlight your key skills on the About page
-- **Modern Styling**: Professional and modern CSS design
+Requirements: Ruby and Bundler installed and available in your shell.
 
-## Pages
+From the `my_portfolio` folder run:
 
-### Home (index.html)
-- Hero section with call-to-action button
-- Introduction to your portfolio
+```powershell
+Set-Location 'C:\Users\User\Downloads\InfoSys\my_portfolio'
+gem install bundler     # if Bundler is not installed
+bundle install          # install gems from Gemfile
+bundle exec jekyll serve --livereload
+```
 
-### About (about.html)
-- Personal information
-- Skills list
-- Your journey and background
-
-### Projects (projects.html)
-- Grid-based project showcase
-- Project cards with images and descriptions
-- Links to individual projects
-
-## Getting Started
-
-1. Open `index.html` in your web browser
-2. Navigate through the pages using the navigation bar
-3. Customize the content with your own information
-4. Replace placeholder images in `assets/images/` with your project images
-
-## Customization
-
-- Update the content in each HTML file with your personal information
-- Modify colors in `style.css` to match your brand
-- Add new projects to the projects page
-- Add images to the `assets/images/` folder
+Open `http://localhost:4000` in your browser to preview the site. The server supports live reload when you edit files.
 
 ## Notes
 
-- Make sure all image paths are correct in the `projects.html` file
-- The website uses semantic HTML for better accessibility
-- CSS Grid and Flexbox are used for responsive layouts
+- Static assets (`css`, `js`, `assets/images`) are served as-is by Jekyll.
+- If you prefer to keep the static HTML copies, they have been removed to avoid duplicate content. The markdown pages are the canonical source.
+- Keep `Gemfile` and `Gemfile.lock` inside `my_portfolio/` to ensure reproducible gem versions.
 
 ## Author
 
