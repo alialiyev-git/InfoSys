@@ -248,6 +248,26 @@ footer {
     padding: 2rem;
 }
 
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #5dade2;
+}
+
 /* ===== Responsive Design ===== */
 @media (max-width: 768px) {
     .hero-content h1 {
