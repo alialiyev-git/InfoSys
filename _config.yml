@@ -2,4 +2,5 @@ title: "My Portfolio"
 email: "you@example.com"
 baseurl: "/InfoSys" # the subpath of your site on GitHub Pages
 url: "https://alialiyev-git.github.io" # the base hostname & protocol for your site
+source: src # source directory for Jekyll files
 markdown: kramdown

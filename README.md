@@ -6,25 +6,30 @@ A Jekyll-based portfolio website with three main pages: Home, About, and Project
 
 ```
 InfoSys/
-├── _config.yml          # Jekyll configuration
-├── _layouts/
-│   └── default.html     # Main site layout template
-├── _includes/
-│   ├── head.html        # HTML head (meta, links, title)
-│   ├── nav.html         # Navigation bar
-│   └── footer.html      # Footer
-├── index.md             # Home page (markdown)
-├── about.md             # About page (markdown)
-├── projects.md          # Projects showcase page (markdown)
-├── css/
-│   └── style.css        # Main stylesheet
-├── js/
-│   └── script.js        # JavaScript functionality
-├── assets/
-│   └── images/          # Project images
+├── _config.yml          # Jekyll configuration (points to src/)
 ├── Gemfile              # Ruby dependencies
 ├── Gemfile.lock         # Locked gem versions
-└── README.md            # This file
+├── README.md            # This file
+├── .github/
+│   └── workflows/       # GitHub Actions for deployment
+├── src/                 # Source directory
+│   ├── _layouts/        # Jekyll layout templates
+│   │   └── default.html
+│   ├── _includes/       # Reusable HTML components
+│   │   ├── head.html
+│   │   ├── nav.html
+│   │   └── footer.html
+│   ├── pages/           # Page content (markdown)
+│   │   ├── index.md     # Home page
+│   │   ├── about.md     # About page
+│   │   └── projects.md  # Projects page
+│   └── assets/          # Static assets
+│       ├── css/
+│       │   └── style.css
+│       ├── js/
+│       │   └── script.js
+│       └── images/      # Project images
+└── _site/               # Generated site (excluded from git)
 ```
 
 ## Live Site
@@ -66,26 +71,26 @@ The server will watch for file changes and auto-reload the page when you edit co
 
 ## Pages
 
-- **Home** (`index.md`) — Welcome page with hero section and call-to-action
-- **About** (`about.md`) — Personal bio, skills, and journey
-- **Projects** (`projects.md`) — Portfolio showcasing three projects with descriptions
+- **Home** (`src/pages/index.md`) — Welcome page with hero section and call-to-action
+- **About** (`src/pages/about.md`) — Personal bio, skills, and journey
+- **Projects** (`src/pages/projects.md`) — Portfolio showcasing projects with descriptions
 
 ## Customization
 
 ### Edit Content
-- Modify markdown files (`index.md`, `about.md`, `projects.md`) to update page content
+- Modify markdown files in `src/pages/` to update page content
 - Edit `_config.yml` to change site title, email, and other settings
 
 ### Edit Styling
-- Update `css/style.css` to customize colors, fonts, and layout
+- Update `src/assets/css/style.css` to customize colors, fonts, and layout
 - Styles are applied automatically via Jekyll's templating
 
 ### Add Project Images
-- Place project images in `assets/images/`
-- Update image paths in `projects.md` if needed
+- Place project images in `src/assets/images/`
+- Update image references in `src/pages/projects.md`
 
 ### Update Navigation
-- Edit `_includes/nav.html` to add/remove navigation links
+- Edit `src/_includes/nav.html` to add/remove navigation links
 
 ## Technologies
 
@@ -97,7 +102,7 @@ The server will watch for file changes and auto-reload the page when you edit co
 
 ## Notes
 
-- All static assets (`css/`, `js/`, `assets/`) are served as-is by Jekyll
+- All static assets are in `src/assets/` and served as-is by Jekyll
 - The site uses semantic HTML for better accessibility
 - Responsive design works on desktop, tablet, and mobile
 - GitHub Pages automatically builds and deploys from the `main` branch
