@@ -260,10 +260,55 @@ footer {
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #5dade2;
+    text-decoration: underline;
+}
+
+.contact-info i {
+    margin-right: 0.5rem;
+    color: #3498db;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-center p {
+    color: #555;
+    margin: 0;
 }
 
 .social-links {
-    margin-top: 1rem;
+    text-align: right;
 }
 
 .social-links a {
@@ -297,4 +342,15 @@ footer {
     .projects-grid {
         grid-template-columns: 1fr;
     }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .contact-info,
+    .social-links {
+        text-align: center;
+    }
 }
+
