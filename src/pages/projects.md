@@ -10,7 +10,7 @@ permalink: /projects/
     <div class="projects-grid">
       <div class="project-card">
         <div class="project-image">
-          <img src="{{ "/assets/images/project1.jpg" | relative_url }}" alt="Project 1">
+          <img src="{{ "/assets/images/project1-howdoeshardwarework.jpg" | relative_url }}" alt="Project 1">
         </div>
         <div class="project-info">
           <h3>How does hardware work?</h3>
@@ -32,7 +32,7 @@ permalink: /projects/
 
       <div class="project-card">
         <div class="project-image">
-          <img src="{{ "/assets/images/project3.jpg" | relative_url }}" alt="Project 3">
+          <img src="{{ "/assets/images/project3-anidespair.PNG" | relative_url }}" alt="Project 3">
         </div>
         <div class="project-info">
           <h3>Anidespair</h3>
