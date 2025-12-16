@@ -114,6 +114,15 @@ main {
     font-size: 1.1rem;
     color: #555;
 }
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem auto;
+  object-fit: cover;
+}
+
 
 /* ===== About Section ===== */
 .about-section {

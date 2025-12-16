@@ -13,9 +13,9 @@ permalink: /projects/
           <img src="{{ "/assets/images/project1.jpg" | relative_url }}" alt="Project 1">
         </div>
         <div class="project-info">
-          <h3>Project 1</h3>
-          <p>A description of your first project. Explain what it does and the technologies used.</p>
-          <a href="#" class="project-link">View Project</a>
+          <h3>How does hardware work?</h3>
+          <p>During this project, I gained knowledge of logic gates and built NOT, AND, and OR gates with my teammates.</p>
+          <a href="https://youtu.be/VgopWiqM-Ho?si=y6oaJIXnDn6VjtMI" class="project-link">View Project</a>
         </div>
       </div>
 
@@ -24,8 +24,8 @@ permalink: /projects/
           <img src="{{ "/assets/images/project2.jpg" | relative_url }}" alt="Project 2">
         </div>
         <div class="project-info">
-          <h3>Project 2</h3>
-          <p>A description of your second project. Explain what it does and the technologies used.</p>
+          <h3>Hour of Code</h3>
+          <p>As part of the Hour of Code project, we visited a regional school and introduced 8th-grade students to programming. Using Bug Arena, I helped students form initial ideas about basic artificial intelligence and machine learning concepts.</p>
           <a href="#" class="project-link">View Project</a>
         </div>
       </div>
@@ -35,9 +35,9 @@ permalink: /projects/
           <img src="{{ "/assets/images/project3.jpg" | relative_url }}" alt="Project 3">
         </div>
         <div class="project-info">
-          <h3>Project 3</h3>
-          <p>A description of your third project. Explain what it does and the technologies used.</p>
-          <a href="#" class="project-link">View Project</a>
+          <h3>Anidespair</h3>
+          <p>Anidespair is a song about an animal that has undergone chemical testing by cosmetics brands. Every detail of this project reflects my own individual effort.</p>
+          <a href="https://youtu.be/GNkAOJV2W_s?si=d8j_C-GwPnMmNDJD" class="project-link">View Project</a>
         </div>
       </div>
     </div>
