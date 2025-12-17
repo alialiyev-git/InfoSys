@@ -16,6 +16,6 @@ permalink: /
   <div class="container">
     <h2>Hello, I'm Ali Aliyev</h2>
     <img src="{{ "/assets/images/profilephoto.jpg" | relative_url }}" alt="Ali Aliyev" class="profile-photo">
-    <p>I combine technology and creativity in my career. Explore my projects to see what I can build.</p>
+    <p>I am an Information Technologies student at ADA University with a strong interest in both technical and creative work. I enjoy collaborating on projects that require responsibility, communication, and consistency, while continuously improving through hands-on experience. Alongside my academic path, I remain engaged in creative and community-oriented activities that shape my perspective and support my personal growth.</p>
   </div>
 </section>

@@ -21,7 +21,7 @@ permalink: /projects/
 
       <div class="project-card">
         <div class="project-image">
-          <img src="{{ "/assets/images/project2.jpg" | relative_url }}" alt="Project 2">
+          <img src="{{ "/assets/images/project2-hourofcode.jpg" | relative_url }}" alt="Project 2">
         </div>
         <div class="project-info">
           <h3>Hour of Code</h3>
