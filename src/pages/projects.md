@@ -26,7 +26,7 @@ permalink: /projects/
         <div class="project-info">
           <h3>Hour of Code</h3>
           <p>As part of the Hour of Code project, we visited a regional school and introduced 8th-grade students to programming. Using Bug Arena, I helped students form initial ideas about basic artificial intelligence and machine learning concepts.</p>
-          <a href="#" class="project-link">View Project</a>
+          <a href="https://youtu.be/R0LYru9TEJQ?si=m9dyFYK-TP173N10" class="project-link">View Project</a>
         </div>
       </div>
 
