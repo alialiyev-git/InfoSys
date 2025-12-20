@@ -1,4 +1,4 @@
-# InfoSystems - Personal Portfolio Website
+# Info. Systems - Personal Portfolio Website
 
 A Jekyll-based portfolio website with three main pages: Home, About, and Projects.
 
